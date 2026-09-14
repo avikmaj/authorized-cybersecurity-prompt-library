@@ -1,0 +1,64 @@
+{
+  "count": 6,
+  "prompts": [
+    {
+      "id": "verify-authorization-and-scope",
+      "title": "Authorized Security Engagement Gate",
+      "sector": "governance-safety",
+      "models": "[chatgpt, claude, grok]",
+      "status": "production",
+      "version": "1.0.0",
+      "path": "00-governance-safety/verify-authorization-and-scope.md"
+    },
+    {
+      "id": "api-authorization-review",
+      "title": "API Authorization and Tenant Isolation Review",
+      "sector": "web-application-security",
+      "models": "[chatgpt, claude, grok]",
+      "authorization_required": "true",
+      "status": "production",
+      "version": "1.0.0",
+      "path": "03-web-application-security/api-authorization-review.md"
+    },
+    {
+      "id": "supabase-rls-review",
+      "title": "Supabase PostgreSQL and Row Level Security Review",
+      "sector": "cloud-security",
+      "models": "[chatgpt, claude, grok]",
+      "authorization_required": "true",
+      "status": "production",
+      "version": "1.0.0",
+      "path": "07-cloud-security/supabase-rls-review.md"
+    },
+    {
+      "id": "github-actions-hardening",
+      "title": "GitHub Actions CI/CD Security Hardening Review",
+      "sector": "devsecops-cicd",
+      "models": "[chatgpt, claude, grok]",
+      "authorization_required": "true",
+      "status": "production",
+      "version": "1.0.0",
+      "path": "09-devsecops-cicd/github-actions-hardening.md"
+    },
+    {
+      "id": "llm-rag-agent-security-review",
+      "title": "LLM RAG and AI Agent Security Review",
+      "sector": "ai-llm-security",
+      "models": "[chatgpt, claude, grok]",
+      "authorization_required": "true",
+      "status": "production",
+      "version": "1.0.0",
+      "path": "27-ai-llm-security/llm-rag-agent-security-review.md"
+    },
+    {
+      "id": "secure-boot-debug-port-review",
+      "title": "Semiconductor Secure Boot and Debug Port Review",
+      "sector": "semiconductor-hardware-security",
+      "models": "[chatgpt, claude, grok]",
+      "authorization_required": "true",
+      "status": "production",
+      "version": "1.0.0",
+      "path": "31-semiconductor-hardware-security/secure-boot-debug-port-review.md"
+    }
+  ]
+}

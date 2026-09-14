@@ -1,0 +1,6 @@
+{
+  "name": "authorized-cybersecurity-prompt-library",
+  "version": "0.1.0",
+  "models": ["chatgpt", "claude", "grok"],
+  "authorization_required": true
+}
